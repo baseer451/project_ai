@@ -1,0 +1,14 @@
+name: Arabic Marketing Content Generator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit>=1.10.0
+    - pandas>=1.3.0
+    - numpy>=1.20.0
+    - matplotlib>=3.4.0
+    - seaborn>=0.11.0
+    - wordcloud>=1.8.0

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  arabic-marketing-app:
+    build: .
+    ports:
+      - "8501:8501"
+    restart: always
+    container_name: arabic-marketing-generator
+    volumes:
+      - ./:/app
